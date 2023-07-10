@@ -5,9 +5,9 @@ const { GoalNear } = require('mineflayer-pathfinder').goals
 
 
 const bot = mineflayer.createBot({
-  host: 'contrf.aternos.me', //Айпи сервер
-  port: '11544', //Порт сервера
-  username: 'XA4BURIK', //Никнаем бота
+  host: '', //Айпи сервер
+  port: '', //Порт сервера
+  username: '', //Никнаем бота
   verseon: false //Версия бот
 })
 
