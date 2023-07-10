@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 const mineflayer = require('mineflayer')
 const pathfinder = require('mineflayer-pathfinder').pathfinder
 const Movements = require('mineflayer-pathfinder').Movements
@@ -24,7 +33,7 @@ bot.on('spawn', () => {
     const target = bot.players[username] ? bot.players[username].entity : null
     if (message === 'сюда!') {
       if (!target) {
-        bot.chat('Ты где блять!')
+        bot.chat('Вы где')
         return
       }
       const p = target.position
